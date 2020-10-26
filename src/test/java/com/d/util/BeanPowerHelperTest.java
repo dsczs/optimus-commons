@@ -1,21 +1,4 @@
-## BeanPowerHelper
-
-基于dozer实现的深度克隆工具类，相对于BeanHelper 功能更强大，支持枚举或其他类型字段的克隆（对象复制）
-
-### 包名
-BeanPowerHelper
-（支持复杂类型，比如枚举等）
-
-
-#### 方法列表
-
-![](media/15430551852934/15430553291649.jpg)
-
-#### 简单使用
-
-
-```
-package com.deepexi.util;/**
+package com.d.util;/**
  * Created by chenshaowen on 2018/11/24.
  */
 
@@ -83,21 +66,3 @@ public class BeanPowerHelperTest {
 
     }
 }
-
-```
-
-输出结果
-
-
-```
-mapPartOverrider[orig]:{"sex":"sex1","name":"orig"}
-    mapPartOverrider[dest]:{"name":"orig","sex":"sex1"}
-    mapPartOverrider[orig]:{"sex":"","name":"s1"}
-    mapPartOverrider:{"name":"s1"}
-    复制前:mapPartOverrider[orig1]:{"sex":"","name":"s2"}
-    复制前：mapPartOverrider[dest]:{"name":"orig","sex":"sex1"}
-    复制后：mapPartOverrider:{"name":"s2","sex":"sex1"}
-    复制后：mapCompleteOverrider:{"name":"s2","sex":""}
-```
-
-

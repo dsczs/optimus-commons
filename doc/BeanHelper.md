@@ -6,7 +6,7 @@
 ## BeanHelper
 
 
-### com.deepexi.util.BeanHelper
+### BeanHelper
 （不支持复杂类型，比如枚举等，性能好）
 
 
