@@ -4,7 +4,7 @@
 
 ```aidl
 <dependency>
-    <groupId>com.deepexi.common</groupId>
+    <groupId>com.d.common</groupId>
     <artifactId>optimus-common</artifactId>
     <version>{{version}}</version>
 </dependency>

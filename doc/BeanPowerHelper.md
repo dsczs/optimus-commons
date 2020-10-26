@@ -15,7 +15,7 @@ BeanPowerHelper
 
 
 ```
-package com.deepexi.util;/**
+package com.d.util;/**
  * Created by chenshaowen on 2018/11/24.
  */
 
